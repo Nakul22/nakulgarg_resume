@@ -6,6 +6,12 @@
 \usepackage{lmodern}
 \usepackage[super]{nth}
 
+\makeatletter
+\newcommand{\thinhline}
+{
+\noalign {\ifnum 0=`}\fi \hrule height 0.2pt
+\futurelet \reserved@a \@xhline
+}
 
 \begin{document}
 
@@ -14,9 +20,40 @@
 	%NAME%
 	\section*{\center\textbf\Huge Nakul Garg}
 		\hrule
+		
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+														%CONTACT%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		\vspace{2mm}	
 		A-36, Ashoka Encalve  \hfill {Contact : +91 8800 565859} \newline
 		Peeragarhi \hfill {e-mailid : nakulgarg.2208@gmail.com} \newline
 		New Delhi-110087 \hfill  {in : http://linkedin.com/in/gargnakul/} \\ \\
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		
+		\centering
+		\begin{longtable}{@{}m{3.0cm}m{14cm}@{}}
+			
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+														%EDUCATION%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			\textrm{\textbf {EDUCATION}} & 
+				\begin{center}
+					\begin{tabular}{ |m{4cm}| m{4cm}| m{2cm}| m{3cm}| }
+						\thinhline
+						{\begin{center} Course \end{center}} & {\begin{center} 
+						College/School \end{center}} & {\begin{center} Passing Year \end{center}} 
+						& {\begin{center} Pass Percentage \end{center}} \\
+						\thinhline
+    					B.Tech,  ECE & 2018 & BVCOE, Delhi  & 68\\ 
+		    			\thinhline
+    					CBSE 12th & {2014} & Saint Mark's School & 90\\
+    					\thinhline
+		    			CBSE 10th & 2012 & Saint Mark's School & 82\\
+    					\thinhline
+  					\end{tabular}
+				\end{center}
+			\\ \\
+			
+			\end{longtable}
 
 \end{document}
