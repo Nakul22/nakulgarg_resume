@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.21)  24 APR 2017 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.21)  24 APR 2017 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -331,32 +331,32 @@ Overfull \hbox (2.79419pt too wide) in paragraph at lines 208--208
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 \OT1/lmr/bx/n/10 CURRICULUR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 []|\OT1/lmr/bx/n/10 CO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 \OT1/lmr/bx/n/10 CURRICULUR
  []
 
 
-Overfull \hbox (11.99997pt too wide) in alignment at lines 48--259
+Overfull \hbox (11.99997pt too wide) in alignment at lines 48--277
  [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 []|\OT1/lmr/bx/n/10 PERSONAL
  []
 
 
-Overfull \hbox (11.99997pt too wide) in alignment at lines 259--311
+Overfull \hbox (11.99997pt too wide) in alignment at lines 277--329
  [] [] 
  []
 
@@ -367,24 +367,26 @@ le.jpg>] [2] [3] (./Resume.aux) )
 Here is how much of TeX's memory you used:
  2260 strings out of 493014
  33373 string characters out of 6133351
- 121029 words of memory out of 5000000
+ 124029 words of memory out of 5000000
  5762 multiletter control sequences out of 15000+600000
  28322 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,16n,32p,241b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/
-dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base
-/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-urw/helvetic/uhvro8a.pfb>
-Output written on Resume.pdf (3 pages, 164539 bytes).
+dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/l
+m-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/
+usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
+msy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.
+pfb>
+Output written on Resume.pdf (3 pages, 169068 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
