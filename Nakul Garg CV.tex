@@ -1,7 +1,8 @@
 \documentclass[10pt]{article}
-
+\usepackage{hyperref}
 \usepackage{calc}
 \usepackage{comment}
+\usepackage{url}
 
 \makeatletter
 \newlength{\bibhang}
@@ -97,8 +98,8 @@
 \newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
 \newcommand\doi[1]{doi:\doilink{#1}}
 
-\providecommand*\url[1]{\href{#1}{#1}}
-\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+%\providecommand*\url[1]{\href{#1}{#1}}
+%\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
 \providecommand*\email[1]{\href{mailto:#1}{#1}}
 
 \providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -106,117 +107,136 @@
 \providecommand\Matlab{\textsc{Matlab}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{document}
 \makeheading{Nakul Garg}
 
-\section{Contact Information}
+\section{\textbf{Contact Information}}
 
 \newlength{\rcollength}\setlength{\rcollength}{1.4in}%
 
 
-A-36, Ashoka Encalve  \hfill {Contact : +91 8800 565859} \newline
-Peeragarhi \hfill {e-mail id : \email{nakulgarg.2208@gmail.com}} \newline
-New Delhi, 110087\hfill  \href{https://github.com/Nakul22}{git : https://github.com/Nakul22} \newline
-INDIA \hfill \href{https://goo.gl/bs3Snq}{website : https://sites.google.com/view/nakulgarg/}
+3245 Brendan Iribe Center \hfill {+1 202-725-1919} \newline
+8125 Campus Drive \hfill {\email{nakul@cs.umd.edu}} \newline
+%College Park, MD 20742 \hfill \href{https://www.cs.umd.edu/~nakul}{https://www.cs.umd.edu/~nakul/} \newline
+College Park, MD 20742 \hfill \url{https://www.cs.umd.edu/~nakul} \newline
 
-\section{Education}
-\textbf{University of Maryland, College Park} \hfill{Aug. 2019--Present}\\
-Ph.D. in Computer Science\\\\
-\textbf{Guru Gobind Singh Indraprastha University} \hfill{Aug. 2014--May 2018}\\
-B.Tech. in ECE, 70\%, Converted GPA 4.0\\\\
-\textbf{St. Marks School},
-New Delhi, India \\
-12\textsuperscript{th} C.B.S.E, 90\%\hfill{Jul. 2014}\\
-10\textsuperscript{th} C.B.S.E, 82\%\hfill{Jul. 2012}
+\section{\textbf{Research Interests}}
+Mobile Computing, Sensing, Wireless Networking\\
 
-\section{Selected Publications}
-\textbf{N. Garg}, A. Anand, B. Chagglani, A. Ashok, ``Visible Light Communication in Drones," (in submission), 2019.\\
-\textbf{N. Garg}, I. Janveja, D. Malhotra, C. Chawla, P. Gupta, H. Bansal, A. Chowdhery, P. Mukherjee, and Brejesh Lall, ``DRIZY- An IOT based Driver Assistance System," (in submission), 2018.\\
-I. Janveja, \textbf{N. Garg}, C. Chawla, J.Parikh. ``Aquacomm: Underwater Visible Light Communication," IndiaCom, India, 2018.\\
-\textbf{N. Garg}, I. Janveja, D. Malhotra, C. Chawla, P. Gupta, H. Bansal, A. Chowdhery, P. Mukherjee, and Brejesh Lall. ``DRIZY---Collaborative Driver Assistance Over Wireless Networks," \textbf{ACM MobiCom} Poster, Utah, USA, 2017.\\
-\textbf{N. Garg}, J.Parikh. ``Wireless transceiver design for visible light communication," ICICI, India, 2017.
+\section{\textbf{Education}}
+\textbf{Ph.D.}, Computer Science \hfill{Aug. 2019--Present}\\
+University of Maryland, College Park\\
 
-\section{Filed Patents}
-\textbf{N. Garg} ``Advanced IoT based Home Automation System without Rewiring", 2016. Intellectual Property India Serial No. 201711020040
+\textbf{Bachelor of Technology}, ECE \hfill{Aug. 2014--May 2018}\\
+Guru Gobind Singh Indraprastha University\\
 
-\section{Experience}
-\textbf{Research Assistant} \hfill {Sept. 2018---July 2019}\\
+%\textbf{St. Marks School},
+%New Delhi, India \\
+%12\textsuperscript{th} C.B.S.E, 90\%\hfill{Jul. 2014}\\
+%10\textsuperscript{th} C.B.S.E, 82\%\hfill{Jul. 2012}
+
+\section{\textbf{Publications}}
+Enabling Self-defense in Small Drones\\
+\textbf{Nakul Garg}, Nirupam Roy\\
+ACM HotMobile 2020\\
+
+Poster: Acoustic Sensing for Detecting Projectile Attacks on Small Drones\\
+\textbf{Nakul Garg}, Nirupam Roy\\
+ACM HotMobile 2020\\
+
+Poster: DRIZY- Collaborative Driver Assistance Over Wireless Networks\\
+\textbf{Nakul Garg}, Ishani Janveja, Divyansh Malhotra, Chetan Chawla, Pulkit Gupta, Harshil Bansal, Aakanksha Chowdhery, Prerana Mukherjee, Brejesh Lall\\
+ACM MobiCom 2017\\
+%\textbf{N. Garg}, I. Janveja, D. Malhotra, C. Chawla, P. Gupta, H. Bansal, A. Chowdhery, P. Mukherjee, and Brejesh Lall. ``DRIZY---Collaborative Driver Assistance Over Wireless Networks," \textbf{ACM MobiCom} Poster, Utah, USA, 2017.
+
+\section{\textbf{Experience}}
+\textbf{Research Intern} \hfill {Sept. 2018---July 2019}\\
 Computer Science Department, IIT Delhi\\
-\emph{Advised by :}, \href{http://www.cse.iitd.ernet.in/~rijurekha/index.html}{Dr. Rijurekha Sen}\\
+Advisor : Professor Rijurekha Sen\\
 \textbf{Technical Advisor} \hfill {May 2018---Sept. 2018}\\
 Celestini Project India, Marconi Society, Google, IIT Delhi\\
-\emph{Led by :}, \href{http://www.achowdhery.com/}{Dr. Aakanksha Chowdhery} (Google AI) and \href{http://ee.iitd.ernet.in/people/brijeshlall.html}{Dr. Brejesh Lall} (IIT Delhi)\\
-\textbf{Project Intern} \hfill {Jun. 2017---Sept. 2017}\\
+Advisor : Dr. Aakanksha Chowdhery and Professor Brejesh Lall\\
+\textbf{Research Intern} \hfill {Jun. 2017---Sept. 2017}\\
 Celestini Project India, Marconi Society, Google, IIT Delhi\\
-\emph{Led by :}, \href{http://www.achowdhery.com/}{Dr. Aakanksha Chowdhery} (Google AI) and \href{http://ee.iitd.ernet.in/people/brijeshlall.html}{Dr. Brejesh Lall} (IIT Delhi)\\
-\textbf{Technical Executive} \hfill {Aug. 2016---Jul. 2017}\\
-Robotime Robotics Lab (STEM in schools)\\
-\textbf{Trainee} \hfill {Sept. 2015---May 2016}\\
-Embedded Systems, IQB Solutions, Delhi
+Advisor : Dr. Aakanksha Chowdhery and Professor Brejesh Lall\\
 
-\section{Positions of Responsibility}
-\textbf{Chairperson} BVP IEEE Student Branch \hfill {2017 - 18}
-\begin{innerlist}
-\item Led a team of 200 students to organize one of the biggest technical hackathon in Delhi, India.
-\end{innerlist}
-\textbf{Vice--Chair} of Robotics Society, BVCOE \hfill {2016 - 17}
-\begin{innerlist}
-\item Conducted workshops across India to teach programming concepts on Arduino/Raspberry, Image Processing and Project Management to 200+ students.
-\end{innerlist}
-\textbf{Head Event--Manager}, Fervour - Technical Fest of college. \hfill {2017}
-\begin{innerlist}
-\item Organized 17 technical events in campus with an outreach of 1000+ students in India.
-\end{innerlist}
+\section{\textbf{Teaching}}
+CMSC420 Advanced Data Structures, Fall 2019\\
+Instructor: Prof. Jason Filippou\\
 
-\section{Awards and Scholarships}
-\begin{innerlist}
-\item University of Maryland Graduate School Dean's Fellowship \hfill 2019
-\item Outstanding Student Volunteer Award by IEEE Delhi Section. \hfill 2018
-\item First position at \textbf{EV Hackathon}, India - Australia joint initiative. \hfill 2018
-\item Winner of World Food India Hackathon. Awarded by \textbf{President of India}. \hfill 2017
-\item  Winner of Celstini Project India 2017,IIT Delhi & Marconi Society. Sponsored by Google.(URL: \href{http://www.celestiniprojectindia.com}{www.celestiniprojectindia.com}) \hfill 2017
-\item Travel grants: NSF for Mobicom 2017, \textbf{ACM SIGMOBILE}\hfill 2017
-\item 1\textsuperscript{st} in \textbf{eYantra - National Robotics Competition}, \textbf{IIT Bombay}\hfill 2017
-\item 2\textsuperscript{nd} in \textbf{eYantra - National Robotics Competition}, \textbf{IIT Bombay}\hfill 2016
-\item Ranked 44 in \textbf{IEEE XTreme Hackathon}\hfill  2015
-\item 1\textsuperscript{st} in Robotron TechMarathon, DDUC, Delhi University\hfill 2014
-\item Among top 6 in \textbf{National CBSE Science Exhibition}\hfill  2013
-\item 4\textsuperscript{th} in \textbf{International Quanta}, CMS School, Lucknow\hfill 2013
-\item 1\textsuperscript{st} in \textbf{Regional level CBSE Science Exhibition}\hfill  2012
-\item 1\textsuperscript{st} in Annual School Science Exhibition\hfill 2011
-\item 1\textsuperscript{st} in Annual School Science Exhibition\hfill  2010
-\item 2\textsuperscript{nd} in Annual School Science Exhibition\hfill  2009
-\end{innerlist}
+CMSC417 Computer Networks, Spring 2020\\
+Instructor: Prof. Nirupam Roy\\\\\\\\
 
-\section{Technical Projects}
-\begin{innerlist}
-    \item \textbf{"Aerogram"} Particualte Matter Sensor Network in 200 Buses across Delhi. \hfill {2019}
-    \item \textbf{"Near Sensor ML"} Reducing latency by bringing ML at edge. \hfill {2018}
-    \item \textbf{"PlugFree"} Autonomous charging of Drones. (Sponsored by GSU, USA) \hfill {2018}
-    \item \textbf{"Augur"} Visible Light Communication using Smartphone Camera \hfill {2018}
-    \item \textbf{"DRIZY"} Collaborative Driver Assistance Over Wireless Networks \hfill {2017}
-    \item \textbf{Li-Fi} (Data transfer through light) Demonstration \hfill {2017}
-    \item \textbf{"PUSHPAK"} Aerial Surveillance Quadcopter with Rover\hfill {2016}
-    \item \textbf{Touch--Screen} Based Home Automation \hfill {2016}
-    \item \textbf{IOT} based Temperature Logger with Remote Access\hfill {2016}
-    \item \textbf{FireBird V Robot} -- Mars Rover Navigation and 3D Modelling\hfill {2016}
-    \item Raspberry pi-3 based Personal \textbf{Cloud Storage} \hfill {2015}
-    \item Anti Car Theft System with SMS alert application\hfill {2014}
-    \item \textbf{Zig--Bee} based Swarm Robotics\hfill {2014}
-    \item Automatic Rubik’s Cube Solver\hfill {2014}
-    \item \textbf{Wireless Odometer}\hfill {2012}
-\end{innerlist}
+%\section{Positions of Responsibility}
+%\textbf{Chairperson} BVP IEEE Student Branch \hfill {2017 - 18}
+%\begin{innerlist}
+%\item Led a team of 200 students to organize one of the biggest technical hackathon in Delhi, India.
+%\end{innerlist}
+%\textbf{Vice--Chair} of Robotics Society, BVCOE \hfill {2016 - 17}
+%\begin{innerlist}
+%\item Conducted workshops across India to teach programming concepts on Arduino/Raspberry, Image Processing and Project Management to 200+ students.
+%\end{innerlist}
+%\textbf{Head Event--Manager}, Fervour - Technical Fest of college. \hfill {2017}
+%\begin{innerlist}
+%\item Organized 17 technical events in campus with an outreach of 1000+ students in India.
+%\end{innerlist}
+\section{\textbf{Awards and Scholarships}}
+University of Maryland Graduate School Dean's Fellowship \hfill 2019\\
 
-\section{Research Interests}
-Visible Light Communication, Mobile Computing, Robotics, Sensing
+Outstanding Student Volunteer Award by IEEE Delhi Section. \hfill 2018\\
 
-\section{Skills and \\Tools}
-Languages : C/C++, Python, MATLAB, OpenCV, \LaTeX, Verilog\\
-Technologies : Arduino, Raspberry Pi, Deep Learning, Computer Vision
+%\item First position at \textbf{EV Hackathon}, India - Australia joint initiative. \hfill 2018
+Winner of World Food India Hackathon. Awarded by President of India. \hfill 2017\\
 
-\section{Society Memberships}
-Institute of Electrical and Electronics Engineers (IEEE)\\
-Association for Computing Machinery (ACM)
+Winner of Celestini Project India 2017,IIT Delhi \& Marconi Society. \hfill 2017\\
+
+%\item Travel grants: NSF for Mobicom 2017, ACM SIGMOBILE \hfill 2017
+
+1\textsuperscript{st} in eYantra - National Robotics Competition, IIT Bombay \hfill 2017\\
+
+2\textsuperscript{nd} in eYantra - National Robotics Competition, IIT Bombay \hfill 2016\\
+
+%\item Ranked 44 in IEEE XTreme Hackathon\hfill  2015
+
+%\item 1\textsuperscript{st} in Robotron TechMarathon, DDUC, Delhi University\hfill 2014
+
+Among top 6 in National CBSE Science Exhibition \hfill  2013\\
+
+%\item 4\textsuperscript{th} in International Quanta, CMS School, Lucknow\hfill 2013
+
+1\textsuperscript{st} in Regional level CBSE Science Exhibition \hfill  2012\\
+
+1\textsuperscript{st} in Annual School Science Exhibition\hfill 2011\\
+
+1\textsuperscript{st} in Annual School Science Exhibition\hfill  2010\\
+
+2\textsuperscript{nd} in Annual School Science Exhibition\hfill  2009\\
+
+%\section{Technical Projects}
+%\begin{innerlist}
+%    \item \textbf{"Aerogram"} Particualte Matter Sensor Network in 200 Buses across Delhi. \hfill {2019}
+%    \item \textbf{"Near Sensor ML"} Reducing latency by bringing ML at edge. \hfill {2018}
+%    \item \textbf{"PlugFree"} Autonomous charging of Drones. (Sponsored by GSU, USA) \hfill {2018}
+%    \item \textbf{"Augur"} Visible Light Communication using Smartphone Camera \hfill {2018}
+%    \item \textbf{"DRIZY"} Collaborative Driver Assistance Over Wireless Networks \hfill {2017}
+%    \item \textbf{Li-Fi} (Data transfer through light) Demonstration \hfill {2017}
+%    \item \textbf{"PUSHPAK"} Aerial Surveillance Quadcopter with Rover\hfill {2016}
+%    \item \textbf{Touch--Screen} Based Home Automation \hfill {2016}
+%    \item \textbf{IOT} based Temperature Logger with Remote Access\hfill {2016}
+%    \item \textbf{FireBird V Robot} -- Mars Rover Navigation and 3D Modelling\hfill {2016}
+%    \item Raspberry pi-3 based Personal \textbf{Cloud Storage} \hfill {2015}
+%    \item Anti Car Theft System with SMS alert application\hfill {2014}
+%    \item \textbf{Zig--Bee} based Swarm Robotics\hfill {2014}
+%    \item Automatic Rubik’s Cube Solver\hfill {2014}
+%    \item \textbf{Wireless Odometer}\hfill {2012}
+%\end{innerlist}
+
+%\section{Skills and \\Tools}
+%Languages : C/C++, Python, MATLAB, OpenCV, \LaTeX, Verilog\\
+%Technologies : Arduino, Raspberry Pi, Deep Learning, Computer Vision
+%
+%\section{Society Memberships}
+%Institute of Electrical and Electronics Engineers (IEEE)\\
+%Association for Computing Machinery (ACM)
 
 \end{document}
