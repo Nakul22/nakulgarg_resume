@@ -1,8 +1,6 @@
 \documentclass[10pt]{article}
-\usepackage{hyperref}
 \usepackage{calc}
 \usepackage{comment}
-\usepackage{url}
 
 \makeatletter
 \newlength{\bibhang}
@@ -63,7 +61,7 @@
 \newcommand{\makeheading}[2][]%
         {\hspace*{-\marginparsep minus \marginparwidth}%
          \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
-             {\Large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
+             {\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
                  \rule{\columnwidth}{1pt}%
          \end{minipage}}
 
@@ -98,8 +96,8 @@
 \newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
 \newcommand\doi[1]{doi:\doilink{#1}}
 
-%\providecommand*\url[1]{\href{#1}{#1}}
-%\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+\providecommand*\url[1]{\href{#1}{#1}}
+\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
 \providecommand*\email[1]{\href{mailto:#1}{#1}}
 
 \providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -117,41 +115,32 @@
 
 3245 Brendan Iribe Center \hfill {+1 202-725-1919} \newline
 8125 Campus Drive \hfill {\email{nakul@cs.umd.edu}} \newline
-%College Park, MD 20742 \hfill \href{https://www.cs.umd.edu/~nakul}{https://www.cs.umd.edu/~nakul/} \newline
-College Park, MD 20742 \hfill \url{https://www.cs.umd.edu/~nakul}
+College Park, MD 20742 \hfill \href{https://www.cs.umd.edu/~nakul}{https://www.cs.umd.edu/~nakul/} \newline
 
 \section{\textbf{Research Interests}}
-Mobile Computing, Wireless Networking, Low-power Sensing, IoT \& Smart Cities\\
+Mobile Computing, Wireless Networking, Low-power sensing, Underwater IoT
 
-\section{\textbf{Education}}
+\section{Education}
 \textbf{Ph.D.}, Computer Science \hfill{Aug. 2019--Present}\\
 University of Maryland, College Park\\
 
 \textbf{Bachelor of Technology}, ECE \hfill{Aug. 2014--May 2018}\\
-Guru Gobind Singh Indraprastha University
+Guru Gobind Singh Indraprastha University\\
 
 %\textbf{St. Marks School},
 %New Delhi, India \\
 %12\textsuperscript{th} C.B.S.E, 90\%\hfill{Jul. 2014}\\
 %10\textsuperscript{th} C.B.S.E, 82\%\hfill{Jul. 2012}
 
-\section{\textbf{Awards and Scholarships}}
-\begin{itemize}[leftmargin=*]
-\item ACM HotMobile 2020 Student Travel Award, 2020
-\item University of Maryland Graduate School Dean's Fellowship, 2019
-\item Outstanding Student Volunteer Award by IEEE Delhi Section, 2018
-\item Winner of World Food India Hackathon. Awarded by President of India, 2017
-\item Winner of Celestini Project India 2017, IIT Delhi \& Marconi Society, 2017
-\item ACM MobiCom 2017 Student Travel Award, 2017
-\item Winner of eYantra - National Robotics Competition, IIT Bombay, 2017
-\item Winner of eYantra - National Robotics Competition, IIT Bombay, 2016
-\item Among top 6 in National CBSE Science Exhibition, 2013
-\item Winner of Regional CBSE Science Exhibition, 2012
-\item Winner of Annual SMS School Science Exhibition, 2011
-\item Winner of Annual SMS School Science Exhibition, 2010
-\end{itemize}
-
 \section{\textbf{Publications}}
+Owlet: Enabling Spatial Information in Ubiquitous Acoustic devices\\
+\textbf{Nakul Garg*}, Yang Bai*, Nirupam Roy\\
+ACM Mobisys 2021\\
+
+Demo: Microstructure-guided Spatial Sensing for Low-power IoT\\
+\textbf{Nakul Garg*}, Yang Bai*, Nirupam Roy\\
+ACM Mobisys 2021\\
+
 Enabling Self-defense in Small Drones\\
 \textbf{Nakul Garg}, Nirupam Roy\\
 ACM HotMobile 2020\\
@@ -162,7 +151,7 @@ ACM HotMobile 2020\\
 
 Evaluating LED-Camera Communication for Drones\\
 Bhawana Chhaglani, Abhay Sheel Anand, \textbf{Nakul Garg}, Ashwin Ashok\\
-ACM LIoT Workshop Co-located with ACM MobiCom 2020\\
+ACM LioT Mobicom 2020\\
 
 Poster: DRIZY- Collaborative Driver Assistance Over Wireless Networks\\
 \textbf{Nakul Garg}, Ishani Janveja, Divyansh Malhotra, Chetan Chawla, Pulkit Gupta, Harshil Bansal, Aakanksha Chowdhery, Prerana Mukherjee, Brejesh Lall\\
@@ -172,25 +161,26 @@ ACM MobiCom 2017\\
 \section{\textbf{Experience}}
 \textbf{Research Intern} \hfill {Sept. 2018---July 2019}\\
 Computer Science Department, IIT Delhi\\
-Advisor : Professor Rijurekha Sen\\
-
+\emph{Advised by :}, \href{http://www.cse.iitd.ernet.in/~rijurekha/index.html}{Dr. Rijurekha Sen}\\
 \textbf{Technical Advisor} \hfill {May 2018---Sept. 2018}\\
 Celestini Project India, Marconi Society, Google, IIT Delhi\\
-Advisor : Dr. Aakanksha Chowdhery and Professor Brejesh Lall\\
-
+\emph{Led by :}, \href{http://www.achowdhery.com/}{Dr. Aakanksha Chowdhery} (Google AI) and \href{http://ee.iitd.ernet.in/people/brijeshlall.html}{Dr. Brejesh Lall} (IIT Delhi)\\
 \textbf{Research Intern} \hfill {Jun. 2017---Sept. 2017}\\
 Celestini Project India, Marconi Society, Google, IIT Delhi\\
-Advisor : Dr. Aakanksha Chowdhery and Professor Brejesh Lall\\
+\emph{Led by :}, \href{http://www.achowdhery.com/}{Dr. Aakanksha Chowdhery} (Google AI) and \href{http://ee.iitd.ernet.in/people/brijeshlall.html}{Dr. Brejesh Lall} (IIT Delhi)\\
 
 \section{\textbf{Teaching}}
-CMSC818W Wireless and Mobile Systems for the IoT, Fall 2020\\
-Instructor: Prof. Nirupam Roy\\
+CMSC420 Advanced Data Structures, Fall 2019\\
+Instructor: Prof. Jason Filippou\\
 
 CMSC417 Computer Networks, Spring 2020\\
 Instructor: Prof. Nirupam Roy\\
 
-CMSC420 Advanced Data Structures, Fall 2019\\
-Instructor: Prof. Jason Filippou\\\\\\\\
+CMSC818W Wireless and Mobile Systems for the IoT, Fall 2020\\
+Instructor: Prof. Nirupam Roy\\
+
+CMSC420 Advanced Data Structures, Spring 2021\\
+Instructor: Prof. David Mount\\
 
 %\section{Positions of Responsibility}
 %\textbf{Chairperson} BVP IEEE Student Branch \hfill {2017 - 18}
@@ -205,6 +195,27 @@ Instructor: Prof. Jason Filippou\\\\\\\\
 %\begin{innerlist}
 %\item Organized 17 technical events in campus with an outreach of 1000+ students in India.
 %\end{innerlist}
+
+\section{\textbf{Awards and Scholarships}}
+\begin{innerlist}
+\item University of Maryland CS Summer Research Fellowship \hfill 2021
+\item University of Maryland Graduate School Dean's Fellowship \hfill 2019
+\item Outstanding Student Volunteer Award by IEEE Delhi Section. \hfill 2018
+\item First position at \textbf{EV Hackathon}, India - Australia joint initiative. \hfill 2018
+\item Winner of World Food India Hackathon. Awarded by \textbf{President of India}. \hfill 2017
+\item  Winner of Celestini Project India 2017,IIT Delhi \& Marconi Society. \hfill 2017
+\item Travel grants: NSF for Mobicom 2017, \textbf{ACM SIGMOBILE}\hfill 2017
+\item 1\textsuperscript{st} in \textbf{eYantra - National Robotics Competition}, \textbf{IIT Bombay}\hfill 2017
+\item 2\textsuperscript{nd} in \textbf{eYantra - National Robotics Competition}, \textbf{IIT Bombay}\hfill 2016
+\item Ranked 44 in \textbf{IEEE XTreme Hackathon}\hfill  2015
+\item 1\textsuperscript{st} in Robotron TechMarathon, DDUC, Delhi University\hfill 2014
+\item Among top 6 in \textbf{National CBSE Science Exhibition}\hfill  2013
+\item 4\textsuperscript{th} in \textbf{International Quanta}, CMS School, Lucknow\hfill 2013
+\item 1\textsuperscript{st} in \textbf{Regional level CBSE Science Exhibition}\hfill  2012
+\item 1\textsuperscript{st} in Annual School Science Exhibition\hfill 2011
+\item 1\textsuperscript{st} in Annual School Science Exhibition\hfill  2010
+\item 2\textsuperscript{nd} in Annual School Science Exhibition\hfill  2009
+\end{innerlist}
 
 %\section{Technical Projects}
 %\begin{innerlist}
